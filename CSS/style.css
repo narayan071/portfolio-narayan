@@ -1,0 +1,162 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* typing */
+
+
+.typewriter{
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid black; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: 1px; /* Adjust as needed */
+    animation: 
+      typing 2s steps(10, end),
+      blink-caret .9s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 70% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    25% { border-color: black; }
+  }
+
+
+
+/* ------------------------------------ */
+
+
+
+body{
+    font-family: sans-serif;
+}
+
+
+#nav-bar{
+    position: sticky;
+    top:0;
+    z-index: 10;
+}
+
+.navbar, footer{
+    background-image: linear-gradient(to right, rgb(51, 51, 123), rgb(124, 46, 126) );
+    padding: 0 !important;
+}
+
+.navbar-nav li{
+    padding: 0 10px;
+}
+
+.navbar-nav li a{
+    color: #fff !important;
+    font-weight: 100;
+    float: right;
+    text-align: left;
+}
+.bars{
+    color: white;
+    font-size: 25px !important;
+}
+
+.youtube{
+    color: red !important;
+}
+.youtube:hover{
+    color: rgb(191, 48, 48) !important;
+    transition: 0.1s;
+    
+}
+.insta{
+    color: rgb(231, 101, 194);
+}
+.insta:hover {
+    color: rgb(195, 34, 147);
+    transition: 0.1s;
+}
+
+.linkedin{
+    color: 0a66c2;
+}
+.linkedin:hover{
+    color:#1f61e6bb;
+    transition: 0.1s;
+}
+
+
+/* banner */
+
+#banner, #academics, #skills, #contact{
+    background-image: linear-gradient(to right, rgb(51, 51, 123), rgb(124, 46, 126) );
+    color: white;
+    padding-top: 20px;  
+}
+
+
+.h3{
+    font-weight: 100;
+}
+.profile{
+    height: 23rem;
+}
+.bottomimg{
+    width: 100%;
+}
+
+.iml,.imr{
+    height: 7rem;
+}
+
+.icolo{
+    color: rgb(90, 30, 129)
+}
+
+
+
+@media only screen and (max-width: 786px) {
+    .icon{
+        height: 100px;
+        padding-left: 35%;
+    }
+}
+
+tr{
+    text-align: center;
+}
+
+.carousel-item{
+    height: 60%;
+    width: 70%;
+    padding-left: auto;
+    margin-left: 15%;
+}
+
+.subm, .card-header{
+    background-color: rgb(90, 30, 129) !important;
+}
+
+
+::-moz-selection { /* Code for Firefox */
+    color: rgb(79, 13, 80);
+    background: rgba(238, 88, 240, 0.3);
+}
+
+::selection {
+    color: rgb(79, 13, 80);
+    background: rgba(238, 88, 240, 0.3);
+  
+  }
