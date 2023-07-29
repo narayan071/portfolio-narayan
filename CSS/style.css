@@ -73,12 +73,12 @@ body{
     font-size: 25px !important;
 }
 
-.youtube{
-    color: red !important;
+.git{
+    color: rgb(69, 69, 69) !important;
 }
-.youtube:hover{
-    color: rgb(191, 48, 48) !important;
-    transition: 0.1s;
+.git:hover{
+    color: rgb(0, 0, 0) !important;
+    transition: ease .3s;
     
 }
 .insta{
@@ -86,7 +86,7 @@ body{
 }
 .insta:hover {
     color: rgb(195, 34, 147);
-    transition: 0.1s;
+    transition:ease .3s;
 }
 
 .linkedin{
@@ -94,7 +94,7 @@ body{
 }
 .linkedin:hover{
     color:#1f61e6bb;
-    transition: 0.1s;
+    transition: ease .3s;
 }
 
 
