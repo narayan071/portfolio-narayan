@@ -85,8 +85,17 @@ body{
     color: rgb(231, 101, 194);
 }
 .insta:hover {
-    color: rgb(195, 34, 147);
+    color: rgb(144, 17, 106);
     transition:ease .3s;
+}
+
+.mail{
+    color: red;
+}
+
+.mail:hover{
+    color: rgb(133, 14, 14);
+    transition: ease .3s;
 }
 
 .linkedin{
@@ -100,7 +109,7 @@ body{
 
 /* banner */
 
-#banner, #academics, #skills, #contact{
+#banner, #academics, #skills, #hobbies{
     background-image: linear-gradient(to right, rgb(51, 51, 123), rgb(124, 46, 126) );
     color: white;
     padding-top: 20px;  
@@ -161,3 +170,12 @@ tr{
   
   }
 
+
+
+  .pro:hover{
+    transform: scale(1.05);
+    box-shadow: 0 8px 12px rgba(69, 2, 69, 0.8) !important;
+    transition: ease .3s;
+    opacity: 0.8;
+
+  }
