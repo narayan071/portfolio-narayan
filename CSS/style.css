@@ -170,19 +170,21 @@ tr{
   
   }
 
-
-
-  .pro:hover{
+  .pro {
+    transition: all 0.2s ease;
+  }
+  
+  .pro:hover {
     transform: scale(1.05);
     box-shadow: 0 8px 12px rgba(69, 2, 69, 0.8) !important;
-    transition: ease .3s;
+    transition: ease 0.3s;
     opacity: 0.8;
-
   }
-
+  
 
   a{
     color: black;
+    transition: all .3s ease;
   }
 
   a:hover{
