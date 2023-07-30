@@ -29,6 +29,7 @@ I'm Narayan Pradhan, a computer science student and a dedicated tech enthusiast.
 ## Additional Features
 
 - **Text Selection Styling**: When users select text on the website, the selection is customized with a purple color, enhancing the user experience.
+- **To-top button**: to scroll back to the top of the page, a decent improvement in the user experience!
 
 ## Get in Touch!
 (please note that I do not have a backend setup for the website, therefore I won't be able to receive communications made through the form given, that being said, I'm working for that as well)
