@@ -375,7 +375,7 @@
                 <p class="text-center text-light m-auto fw-bold">Let's talk! Fill out the form below.</p>
               </div>
               <div class="card-body">
-                <form action="#" method = "post" id = "form"  novalidate onsubmit="validate(event)">
+                <form action="" method="post" id="form" novalidate onsubmit="return validate(event)">
                   <div class="mb-1">
                     <input type="text" class="form-control" id = "name" placeholder="name" required>
                     <label class="text-danger" id="name_error"></label>
@@ -390,7 +390,7 @@
                                 <label class="text-danger" id="message_error"></label>
                                 
                               </div>
-                              <button onclick="sendEmail()" type="submit" class="form-control bg-primary text-light fw-bold subm">Submit</button>
+                              <button type="submit" class="form-control bg-primary text-light fw-bold subm">Submit</button>
                               <div class="mb-1"></div>
                         </form>
                       </div>
