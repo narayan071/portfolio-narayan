@@ -52,3 +52,21 @@ function topFunction() {
   document.body.scrollTop = 0; 
   document.documentElement.scrollTop = 0; 
 }
+
+function sendEmail(){
+  let email = document.getElementById("email").value;
+  let message = document.getElementById("message").value;
+  let name = document.getElementById("name").value;
+  let body = "Name: "+name+"<br/>Message: "+message+"<br/>Email: "+email;
+  Email.send({
+    SecureToken : "3b5661d4-c662-490b-95ab-ed4085e6ec0f",
+    To : 'narayanpradhanb1117@gmail.com',
+    From : "narayanpradhanb1117@gmail.com",
+    Subject : "PORTFOLIO FORM COMMUNICATION",
+    Body : body
+  }).then(
+  message => alert(message)
+  );
+}
+
+// 3b5661d4-c662-490b-95ab-ed4085e6ec0f
