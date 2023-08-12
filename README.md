@@ -32,7 +32,6 @@ I'm Narayan Pradhan, a computer science student and a dedicated tech enthusiast.
 - **To-top button**: to scroll back to the top of the page, a decent improvement in the user experience!
 
 ## Get in Touch!
-(please note that I do not have a backend setup for the website, therefore I won't be able to receive communications made through the form given, that being said, I'm working for that as well)
-in case you want to make contact, feel free to do so via social handles(instagram, linkedin and email links provided in the footer.
+in case you want to make contact, feel free to do so via the contact form provided or social handles(instagram, linkedin and email links provided in the footer.
 
 Thank you for visiting my portfolio! 
